@@ -1,0 +1,20 @@
+.slider-main{position:relative;}
+.nivoSlider{position:relative;	width:100%;	height:auto; overflow: hidden;}
+.nivoSlider img{position:absolute;	top:0px; left:0px;max-width: none;}
+.nivo-main-image{display: block !important;position: relative !important; width: 100% !important;} .nivoSlider a.nivo-imageLink {position:absolute;top:0px;left:0px;width:100%;height:100%;border:0;padding:0;margin:0;z-index:6;display:none;	background:white; 	filter:alpha(opacity=0); opacity:0;} .nivo-slice { display:block; position:absolute; z-index:5; height:100%; top:0;}
+.nivo-box {display:block; position:absolute; z-index:5;	overflow:hidden;}
+.nivo-box img { display:block; } .nivo-html-caption{display:none;} .nivo-directionNav a{position:absolute; bottom:0%; z-index:9; cursor:pointer;}
+a.nivo-prevNav{left:0%; top:50%; background-position:-4px 8px !important; }
+a.nivo-nextNav{right:0%; top:50%; background-position:-44px 8px !important;} .nivo-controlNav{text-align:center; padding:0; position:absolute; text-align:center; width:100%; z-index:6; bottom:30px;}
+.nivo-controlNav a{cursor:pointer; z-index:99; }
+.nivo-controlNav a{border: 0 none; display:inline-block; height:11px; width:11px; margin:0 4px; text-indent:-9999px; border-radius:100%;-moz-border-radius:100%;-webkit-border-radius:100%;-o-border-radius:100%;}
+.nivo-controlNav a.active{font-weight:bold;}
+.nivo-directionNav{background:rgba(0, 0, 0, 0.6); display:table; text-align:center;}
+.nivo-directionNav a {border: 0 none; display: block; height:53px; opacity:0; text-indent: -9999px; transition: all 200ms ease-in-out 0s; width:38px; background:url(//sktthemesdemo.net/charity/wp-content/themes/skt-charity-pro/images/slide-nav.png) no-repeat; }
+.slider-main:hover .nivo-directionNav a{opacity:1;} .nivo-caption {position:absolute; top:40%; left:7%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; color:#fff; z-index:8;
+padding:0; display:none; width:42%; text-align:left;}
+.slide_info h2{ display:inline-block;  font:32px/60px 'Roboto', sans-serif; color:#ffffff; margin:0; padding:0 0 15px 0; font-weight:300;}
+.slide_info h2 strong{ font-weight:800; display:block;}
+.slide_info p{font:400 18px/20px 'PT Sans', sans-serif; margin:0; padding:0 0 30px 0; font-weight:400; display:table;}
+.slide_info a.sldbutton{ color:#ffffff; padding:10px 20px; margin-top:40px; display:table; font-weight:bold; -webkit-border-radius:3px; -moz-border-radius:3px;border-radius: 3px;}
+.slider-main{min-height:500px; background:url(//sktthemesdemo.net/charity/wp-content/themes/skt-charity-pro/images/loading.gif) no-repeat center center #ffffff;}
